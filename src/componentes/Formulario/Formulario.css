@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+.form label {
+  color: white;
+}
+
+.form h2 {
+  color: white;
+}
+.form form {
+  max-width: 80%;
+  background-color: #527743;
+  border-radius: 20px;
+  padding: 36px 64px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
+}
