@@ -20,7 +20,54 @@ function App() {
     },
   ];
 
-  const [colaboradores, setColaboradores] = useState([]);
+  const inicial = [
+    {
+      nome: "CREEPER",
+      cargo: "Duelista",
+      imagem:
+        "https://cdn.discordapp.com/attachments/997555737490370611/1122637895325466745/creeper.png",
+      time: times[0].nome,
+    },
+    {
+      nome: "ENDERMAN",
+      cargo: "Estrategista",
+      imagem:
+        "https://cdn.discordapp.com/attachments/997555737490370611/1122637919212028074/enderman.png",
+      time: times[0].nome,
+    },
+    {
+      nome: "ZUMBI",
+      cargo: "Duelista",
+      imagem:
+        "https://cdn.discordapp.com/attachments/997555737490370611/1123004101534416936/aZumbi.png",
+      time: times[0].nome,
+    },
+
+    {
+      nome: "LUKAAO",
+      cargo: "Duelista/Estrategista",
+      imagem:
+        "	https://cdn.discordapp.com/attachments/997555737490370611/1122596987427110953/lukaaominecard.png",
+      time: times[1].nome,
+    },
+
+    {
+      nome: "CLARINHA",
+      cargo: "Suporte",
+      imagem:
+        "https://cdn.discordapp.com/attachments/997555737490370611/1122596951196709035/claraminecard.png",
+      time: times[1].nome,
+    },
+    {
+      nome: "PAULIIN",
+      cargo: "Duelista",
+      imagem:
+        "	https://cdn.discordapp.com/attachments/997555737490370611/1122596987427110953/lukaaominecard.png",
+      time: times[1].nome,
+    },
+  ];
+
+  const [colaboradores, setColaboradores] = useState(inicial);
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
     console.log(colaborador);
