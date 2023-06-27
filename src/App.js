@@ -62,7 +62,7 @@ function App() {
       nome: "PAULIIN",
       cargo: "Duelista",
       imagem:
-        "https://cdn.discordapp.com/attachments/997555737490370611/1123047365008445520/paulin.png",
+        "https://cdn.discordapp.com/attachments/997555737490370611/1123081421532180510/pauliin.png",
       time: times[1].nome,
     },
   ];
